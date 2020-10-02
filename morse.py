@@ -40,7 +40,6 @@ def decode_bits(bits):
     ready = re.split('b', dots)
     morse_efied += ''.join(ready)
     return morse_efied
-    # print(spaces)
 
 
 def decode_morse(morse):
