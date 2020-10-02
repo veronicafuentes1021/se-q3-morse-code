@@ -1,3 +1,20 @@
+bits += ' '
+    out_put = ''
+    code = ''
+    for char in bits:
+        if (char != ' '):
+            i = 0
+            code += char
+        else:
+            i += 1
+            if i == 2:
+                out_put += ' '
+            else:
+                out_put += list(morse.keys())[list(morse.values()).index(code)]
+    # return out_put
+    print(out_put)
+
+
 <img height="120px" src="img/morse-code.jpg" />
 
 # Morse Code
